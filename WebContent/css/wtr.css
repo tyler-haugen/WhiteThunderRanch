@@ -1,34 +1,85 @@
 .home {
-    background-color: #000000;
-    color: #FFFFFF;
-    width: 90%;
-}    
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 80%;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
 
-.header
-{
+.header {
 	padding-top: 25px;
 	width: 100%;
 	text-align: center;
-		vertical-align: top;
+	vertical-align: top;
 }
 
-.header_main
-{	
+.header_main {
 	width: 70%;
 	float: left;
-	font-size: 4.0em;
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-	font-weight: bold;
 }
 
-.header_side_left
-{
+.header_main h1 {
+	font-size: 4.0em;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+
+.header_side_left {
 	width: 15%;
 	float: left;
 }
 
-.header_side_right
-{
+.header_side_right {
 	width: 15%;
 	float: right;
+}
+
+.nav_main {
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #663300;
+}
+
+nav {
+	width: 100%;
+}
+
+.nav_main ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #663300;
+}
+
+.nav_main ul li {
+	float: left;
+	width: 16.5%;
+}
+
+.nav_main ul li a {
+	width: 100%;
+	display: inline-block;
+	color: #FFFFCC;
+	text-align: center;
+	padding: 2px 0px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.nav_main ul li a:hover {
+	background-color: #996633;
+	border-color: #452F1E;
+}
+
+.nav_selected {
+	background-color: #452F1E;
+}
+
+
+.trail_rides {
+	float: left;
+	margin-right: 25px;	
 }
