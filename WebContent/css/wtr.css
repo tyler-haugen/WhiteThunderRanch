@@ -1,6 +1,6 @@
 .home {
 	background-color: #000000;
-	color: #FFFFFF;
+	color: #FFFFCC;
 	width: 80%;
 	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
@@ -39,7 +39,7 @@
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
-	background-color: #663300;
+	background-color: #330000;
 }
 
 nav {
@@ -79,7 +79,15 @@ nav {
 }
 
 
-.trail_rides {
+.home_div_row1 {
 	float: left;
-	margin-right: 25px;	
+	margin-right: 25px;
+	
+		
 }
+
+.home_div_row1 img {
+	width: 200px;
+	height: 200px;	
+}
+
