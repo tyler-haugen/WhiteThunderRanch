@@ -80,14 +80,18 @@ nav {
 
 
 .home_div_row1 {
-	float: left;
-	margin-right: 25px;
-	
-		
+	display: inline-block;
+	margin-right: 25px;	
+}
+
+.CLEAR_FLOAT
+{
+	clear: both;
 }
 
 .home_div_row1 img {
-	width: 200px;
-	height: 200px;	
+	width: 250px;
+	height: 250px;	
+	border-style: solid;
+	background-color: #996633;
 }
-
