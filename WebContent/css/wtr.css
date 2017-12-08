@@ -2,7 +2,6 @@
 	background-color: #000000;
 	color: #FFFFCC;
 	width: 80%;
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 .header {
@@ -14,6 +13,7 @@
 
 .header_main {
 	width: 70%;
+	margin: 10px;
 	float: left;
 }
 
@@ -22,16 +22,91 @@
 	font-weight: bold;
 	padding: 0px;
 	margin: 0px;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.header_main h2 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+	
+.header_main h3 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 .header_side_left {
-	width: 15%;
+	width: 14%;
 	float: left;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	text-align: center;
 }
 
 .header_side_right {
-	width: 15%;
+	width: 14%;
 	float: right;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.tours_main {
+	text-align: left;
+}
+
+
+.tours_main_ph1 {
+	float: left;
+	width: 350px;
+	border-style: solid;
+	margin: 10px 40px 10px 0px;
+}
+
+.tours_main_ph2 {
+	float: right;
+	width: 400px;
+	border-style: solid;
+	margin: 10px 40px;
+	margin: 10px 0px 10px 40px;
+}
+
+.tours_main_ph3 {
+	float: left;
+	width: 350px;
+	border-style: solid;
+	margin: 10px 40px 10px 0px;
+}
+
+.tours_main h2 {
+	text-align: left;
+	text-decoration: underline;
+}
+
+
+.tours_main_vernell { }
+
+.tours_main_vernell h2 {
+	text-decoration: none;
+	text-align: center
+}
+
+.trails_main {
+	text-align:left;
+}
+
+.trails_main_ph1 {
+	float: left;
+	width: 250px;
+	border-style: solid;
+	margin: 10px 40px 10px 0px;
+}
+
+.trails_main_ph2 {
+	float: right;
+	height: 300px;
+	border-style: solid;
+	margin: 10px 0px 10px 40px;
+}
+
+
+.trails_main_list {
+	text-decoration: underline;
 }
 
 .nav_main {
@@ -40,6 +115,7 @@
 	margin: 0 auto;
 	padding: 0;
 	background-color: #330000;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 nav {
@@ -82,6 +158,10 @@ nav {
 .home_div_row1 {
 	display: inline-block;
 	margin-right: 25px;	
+}
+
+.home_div_row1 h2 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 .CLEAR_FLOAT
