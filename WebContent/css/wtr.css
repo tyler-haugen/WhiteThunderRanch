@@ -40,6 +40,26 @@
 	text-align: center;
 }
 
+.header_side_left a {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
+.header_side_left a:link {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
+.header_side_left a:active {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
+.header_side_left a:visited {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
 .header_side_right {
 	width: 14%;
 	float: right;
@@ -157,12 +177,22 @@ nav {
 
 .home_div_row1 {
 	display: inline-block;
-	margin-right: 25px;	
+	margin-right: 25px;
 }
+
+.home_div_row1 a{
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
+
+
 
 .home_div_row1 h2 {
 	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
+
+
 
 .CLEAR_FLOAT
 {
@@ -170,8 +200,9 @@ nav {
 }
 
 .home_div_row1 img {
-	width: 250px;
-	height: 250px;	
+	max-widht: 250px;
+	height: 200px;	
 	border-style: solid;
 	background-color: #996633;
+	outline : none;
 }
